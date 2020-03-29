@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 800px;
+    grid-gap: 30px;
+}
+
+#formBox input, #formBox button {
+    width: 100%;
+}
+
+#textBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+#textBox p {
+    margin-top: 0;
+    background-color: lightgray;
+    max-height: 20px;
+    padding: 3px;
+}
